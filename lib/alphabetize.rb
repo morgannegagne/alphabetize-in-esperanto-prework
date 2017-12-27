@@ -1,4 +1,9 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
+  arr.sort_by{|a| esperanto.index(arr[0])}
+
+  arr 
   
+
 end
