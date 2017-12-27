@@ -3,7 +3,7 @@ def alphabetize(arr)
 
   arr.sort_by{|a| esperanto.index(arr[0])}
 
-  arr 
-  
+  arr
+
 
 end
